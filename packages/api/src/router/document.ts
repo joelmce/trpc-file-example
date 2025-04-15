@@ -1,5 +1,5 @@
 import type { TRPCRouterRecord } from "@trpc/server";
-import { octetInputParser } from "@trpc/server/unstable-core-do-not-import";
+import { octetInputParser } from "@trpc/server/http";
 
 import { protectedProcedure } from "../trpc";
 
